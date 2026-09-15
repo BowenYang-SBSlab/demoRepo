@@ -14,7 +14,7 @@ import numpy as np
 
 # --- Generate synthetic data ---
 np.random.seed(0)
-n = 100
+n = 89
 df = pd.DataFrame({
     'observed': np.random.normal(100, 10, n),
     'predicted': np.random.normal(102, 10, n)
